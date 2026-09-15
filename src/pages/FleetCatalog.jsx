@@ -232,7 +232,7 @@ export default function FleetCatalog() {
                   <button
                     key={opt}
                     onClick={() => setTransmission(opt)}
-                    className={`flex-1 text-center py-2 px-2 rounded-lg capitalize font-label-md transition-all ${
+                    className={`cursor-pointer flex-1 text-center py-2 px-2 rounded-lg capitalize font-label-md transition-all ${
                       transmission === opt
                         ? 'bg-primary text-on-primary'
                         : 'bg-surface-container-low hover:bg-surface-container text-on-surface'
